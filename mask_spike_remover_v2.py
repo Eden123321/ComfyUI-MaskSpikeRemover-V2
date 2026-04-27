@@ -37,7 +37,7 @@ class MaskSpikeRemoverV2:
                 "edge_blur": ("FLOAT", {
                     "default": 3.0,
                     "min": 0.0,
-                    "max": 50.0,
+                    "max": 200.0,
                     "step": 0.5,
                     "tooltip": "Edge blur radius for feathering"
                 }),
